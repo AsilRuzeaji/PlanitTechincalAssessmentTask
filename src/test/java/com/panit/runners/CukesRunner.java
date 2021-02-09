@@ -10,9 +10,9 @@ import org.junit.runner.RunWith;
                 "timeline:target/timeline-report"
         }, // here is to generate very nice and human readable report
         features = {
-                "src/test/java/resources/features"
+                "src/test/resources/features"
         },
-        glue = "com/planit/step_definitions",
+        glue = "com/panit/step_definitions",
         dryRun = false,
         tags = "",
         publish = true
